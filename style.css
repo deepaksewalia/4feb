@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    outline: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #FFFFFF;
+    padding: 4rem 10rem;
+   
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+     width: 10rem;
+     cursor: pointer;
+}
+header .menu{
+    margin-left: 5.5rem;
+    flex-grow: 1;
+}
+header .menu a{
+    margin: 2rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+header .menu a:hover{
+    color: #5955B3;
+    font-weight: 600;
+}
+.connect-btn{
+    background-color: #5955B3;
+    color: #FFFFFF;
+    padding: 1.5rem 3.5rem;
+    border-radius: 1.7rem; 
+    font-weight: 600;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.connect-btn:hover{
+    background-color: #fff;
+    color: #5955B3;
+}
+/* main section start */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5.5rem;
+}
+main .left-section{
+    width: 45%;
+}
+main .left-section h1{
+    font-size: 5.8rem;
+    color: #3C2F60;
+    line-height: 8rem;
+}
+main .left-section h1 span{
+    color: #5955B3;
+}
+main .left-section p{
+    color: #828282;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    margin-top: 2.8rem;
+    letter-spacing: .1rem;
+}
+main .left-section .see-btn{
+    margin-top: 4.9rem;
+    background-color: #5955B3;
+    color: #FFFFFF;
+    padding: 1.5rem 4.5rem;
+    border-radius: 1.7rem; 
+    font-weight: 600;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+main .left-section .see-btn:hover{
+    color: #5955B3;
+    background-color: #fff;
+}
+/* right section start */
+.right-section img{
+width: 100%;
+height: auto;
+}
